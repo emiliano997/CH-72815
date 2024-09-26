@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Inyectando Cookies</h1>
+
+    <form action="/set-user" method="post">
+      <input type="text" name="username" placeholder="Nombre de usuario" />
+      <input type="email" name="email" placeholder="Email" />
+      <input type="submit" value="Enviar" />
+    </form>
+
+    <button id="get-cookie">Get Cookie</button>
+    <p id="cookie"></p>
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>
