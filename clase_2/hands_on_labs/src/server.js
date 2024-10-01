@@ -34,7 +34,7 @@ app.use(
   session({
     store: MongoStore.create({
       mongoUrl:
-        "mongodb+srv://test_admin:1234@curso-nodejs.de1bv.gcp.mongodb.net/CH-72815",
+        "",
       ttl: 15,
     }),
     secret: "s3cr3t",
